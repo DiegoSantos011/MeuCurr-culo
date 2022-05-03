@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+   
+    /* font-family: 'Ubuntu Mono', monospace; */
+}
+
+#menu{
+    /* position: fixed;
+    z-index: 1; */
+    width: 100%;
+}
+
+#menu ul{ 
+    padding: 2%;
+    background-color: #152238;
+    display: flex;
+    justify-content: space-evenly;
+}
+#menu a{
+    color: white
+}
+
+#efeitos{
+    background-color: black;
+}
+#efeitos img{
+    width: 100%;
+    opacity: 0.5;
+    
+}
+
+#manutencao{
+    margin-bottom: -2em;
+}
+#saudacao{
+    /* text-align: center; */
+    color:#224063; 
+    font-size: 2em;
+    position: absolute;
+    top:0;
+    left:150px;
+    padding-top: 4em;
+} 
+
+#saudacao h1{
+    text-align: center; 
+    color:#f8f8f8;
+}
+
+#saudacao p{
+color: #143d82;
+}
+
+#saudacao button{
+    background-color: #6aa0c7;
+    font-size: large;
+    padding: 2%;
+}
+
+.animacaozinha{
+    font-size: 30px;
+    color: #ffffff;
+    padding-left: 2em;
+}
+
+.contatos li{
+    padding-top: 7px ;
+    color: #ffffff;
+}
+
+.linguagens{
+    margin-top: 20px;
+}
+
+.linguagens p{
+    color: #ffffff;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+#Progress_Status3 {
+    width: 100%;
+    background-color: rgb(162, 183, 242);
+    border-radius: 20px;
+    margin-bottom: 5px;
+  }
+        .linguagens p{
+            color: #edeef2;
+            font-size:150%;
+        } 
+  #myprogressBar3 {
+    width: 60%;
+    height: 35px;
+    background-color: #0c1851;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 32px;
+    color: black;
+    margin-left: 0%;
+    margin-left: 0%;
+    color: white;
+  }
+main h1{
+    color: #224063;;
+    margin-left: 70px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+@keyframes transicao {
+    0%   {color: #ffffff;}
+    50%  {color: #224063;}
+    100% {color: #ffffff;}
+  }
+.animacao{
+    animation-name: transicao;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+#aboutme{
+    width: 65%;
+    padding: 2%;
+    background-color:#010101;
+    position: absolute;
+    top: 500px;
+    border-radius: 10%;
+    height: 65%;
+    margin-top: -9em;
+
+}
+#redessociais{
+    width: 300px;
+}
+#redessociais ul{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#redessociais a{
+    color: #ECECEC;
+}
+.informacoes ul{
+    margin-top: 20%;
+}
+#conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#Progress_Status {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin-bottom: 5px;
+  }
+    
+  #myprogressBar {
+    width: 90%;
+    height: 35px;
+    background-color: #0c1851;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 32px;
+    color: black;
+    margin-left: 0%;
+    margin-left: 0%;
+    color: white;
+  }
+
+  #myprogressBar2{
+    width: 65%;
+    height: 35px;
+    background-color:#0c1851;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 32px;
+    color: black;
+    margin-left: 0%;
+    color: white;
+  }
+
+#conteudo img{
+    width: 20%;
+    border-radius: 10%;
+    margin-right: 132px;
+ 
+}
+
+#conteudo p{
+    width: 50%;
+}
+#projects{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    width:30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+    transition: 0.3s;
+  }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+table { 
+    width:100%;
+    margin:0 auto;
+    border-spacing:0;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+
+
+/* .informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+} */
+
+
+
+caption {
+    font-size:130%;
+    font-weight:bold;
+    padding:5px 0;
+    background-color:#ECECEC;
+    border:1px solid #ccc;
+    border-bottom:none;
+}
+ 
+tr, td, th {
+    border:thin solid #ccc;
+    border-bottom:none;
+    border-right:none;
+    padding:5px;
+}
+ 
+td { 
+    text-align:center;
+}
+
+footer{
+    padding: 1%;
+    color: white;
+    background-color: #152238;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+}
+
